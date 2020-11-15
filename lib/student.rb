@@ -4,6 +4,6 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
 
-  attr_accessor * self.column_names
+  attr_accessor *self.column_names
 
 end
